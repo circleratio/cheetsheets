@@ -1,6 +1,8 @@
 #!/usr/bin/bash
 
-MD_FOLDER=${HOME}/work/cs/sheets
+ROOT=$(dirname 0)
+
+MD_FOLDER=${ROOT}/sheets
 MD2HTML="python3 ${HOME}/tmp/md2x/md2x.py"
 FILE="$MD_FOLDER"/"$1".md
 
