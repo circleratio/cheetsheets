@@ -1,0 +1,11 @@
+---
+title: apt
+---
+- パッケージ情報の更新 – apt update
+- パッケージの更新 – apt upgrade
+- パッケージの検索 – apt search
+- パッケージのインストール – apt install
+- パッケージの削除 – apt remove
+- パッケージの自動削除 – apt autoremove
+- パッケージの完全削除 – apt purge
+- インストール済みパッケージの一覧 – apt list –installed
