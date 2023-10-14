@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-MD2HTML="python3 ${HOME}/tmp/md2x/md2x.py"
+MD2HTML="python3 ${HOME}/share/md2x/md2x.py"
 
 SCRIPT_DIR=$(dirname $0)
 if [[ -L ${SCRIPT_DIR}/cs ]]; then
