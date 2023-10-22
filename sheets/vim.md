@@ -54,3 +54,7 @@ title: vim
 # その他
 - ZZ: 終了(=:wq)
 - ビジュアルモード: v, V, C-v
+
+# 拡張
+- :Rg [word]: ripgrep + fzf による全文検索
+- ^p: fzf によるファイルオープン
