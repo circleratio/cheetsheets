@@ -94,3 +94,7 @@ title: vim
 # 拡張
 - :Rg [word]: ripgrep + fzf による全文検索
 - ^p: fzf によるファイルオープン
+
+# 画面分割
+- 分割: :sp, :vs
+- 画面間の移動: [c-w]h [c-w:l
