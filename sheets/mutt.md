@@ -10,3 +10,6 @@ title: mutt
 
 # HTMLメール参照（要設定）
 - C-b: w3mでメール参照。:でURLをリンクに変換。
+
+# CLIでメール送信
+- neomutt -s "subject" -a "attachment" mail_address < file
